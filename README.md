@@ -1,7 +1,4 @@
-Nice work sharing the actual `model.py` — that helps a lot 👍
-Below is a **reformed, accurate, and code-aligned `README.md`**, rewritten to **match your real implementation**, training commands, and design decisions for **EproQi-S1-Tilda-e1 (70M)**.
 
-You can **directly replace your existing README.md** with this.
 
 ---
 
