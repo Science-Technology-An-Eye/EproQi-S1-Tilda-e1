@@ -1,0 +1,36 @@
+{
+    "vocab_size": 64000,
+    "dim": 384,
+    "inter_dim": 1536,
+    "moe_inter_dim": 0,
+    "n_layers": 8,
+    "n_dense_layers": 8,
+    "n_heads": 6,
+    "n_routed_experts": 0,
+    "n_shared_experts": 0,
+    "n_activated_experts": 0,
+    "route_scale": 1.0,
+    "q_lora_rank": 0,
+    "kv_lora_rank": 96,
+    "qk_nope_head_dim": 32,
+    "qk_rope_head_dim": 32,
+    "v_head_dim": 64,
+    "mscale": 1.0,
+    "max_batch_size": 4,
+    "max_seq_len": 4096,
+    "original_seq_len": 4096,
+    "rope_theta": 10000.0,
+    "rope_factor": 1.0,
+    "beta_fast": 32,
+    "beta_slow": 1,
+    "dtype": "bf16",
+
+    "_comments": {
+        "corpus_config": "Built from build_corpus.py with max_line_length=8192",
+        "tokenization": "8192 chars → ~2000-3000 tokens (fits within max_seq_len=4096)",
+        "dataset_size": "7.5 GB total",
+        "dataset_mix": "PubMedQA(16.7%) + FineMath(25%) + FineWeb-Edu(33.3%) + Stack-v2(25%)",
+        "model_params": "~25-30M parameters",
+        "training_notes": "Use --interleave mode for better token distribution"
+    }
+}
